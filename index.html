@@ -1,154 +1,398 @@
+```html
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Energo - Energía Natural</title>
+
+    <title>Energo | Energía Natural para tu Ritmo Diario</title>
+
+    <meta name="description"
+        content="Energo es la bebida energética natural diseñada para quienes estudian, entrenan, crean y nunca se detienen.">
+
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 <body>
 
-<header>
+    <div class="background-glow glow-1"></div>
+    <div class="background-glow glow-2"></div>
 
-    <nav>
-        <h1 class="logo">ENERGO</h1>
+    <header>
 
-        <ul>
-            <li><a href="#beneficios">Beneficios</a></li>
-            <li><a href="#productos">Productos</a></li>
-            <li><a href="#contacto">Contacto</a></li>
-        </ul>
+        <nav>
 
-    </nav>
+            <div class="logo">
+                ENERGO
+            </div>
 
-</header>
+            <ul>
 
-<section class="hero">
+                <li><a href="#beneficios">Beneficios</a></li>
+                <li><a href="#ingredientes">Ingredientes</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#testimonios">Opiniones</a></li>
 
-    <div class="hero-content">
+            </ul>
 
-        <span class="badge">100% Natural</span>
+        </nav>
 
-        <h2>Energía natural para tu ritmo diario</h2>
+    </header>
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <span class="tag">
+                ⚡ ENERGÍA NATURAL
+            </span>
+
+            <h1>
+                NO SIGAS EL RITMO.
+                <br>
+                CRÉALO.
+            </h1>
+
+            <p>
+
+                Diseñada para estudiantes, deportistas,
+                emprendedores y creadores que buscan
+                rendimiento sin comprometer su bienestar.
+
+            </p>
+
+            <div class="hero-buttons">
+
+                <a href="#productos" class="btn-primary">
+                    Comprar Ahora
+                </a>
+
+                <a href="#beneficios" class="btn-secondary">
+                    Descubrir Más
+                </a>
+
+            </div>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="img/energo.png" alt="Energo">
+
+        </div>
+
+    </section>
+
+    <section class="stats">
+
+        <div class="stat">
+            <h2>100%</h2>
+            <p>Natural</p>
+        </div>
+
+        <div class="stat">
+            <h2>0%</h2>
+            <p>Colorantes Artificiales</p>
+        </div>
+
+        <div class="stat">
+            <h2>24h</h2>
+            <p>Actitud Positiva</p>
+        </div>
+
+        <div class="stat">
+            <h2>+50K</h2>
+            <p>Consumidores</p>
+        </div>
+
+    </section>
+
+    <section id="beneficios" class="benefits">
+
+        <div class="section-title">
+
+            <span>BENEFICIOS</span>
+
+            <h2>
+                Más energía.
+                Menos límites.
+            </h2>
+
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="icon">⚡</div>
+
+                <h3>Energía Inteligente</h3>
+
+                <p>
+                    Mantén tu rendimiento físico y mental
+                    durante tus actividades diarias.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="icon">🌿</div>
+
+                <h3>Ingredientes Naturales</h3>
+
+                <p>
+                    Elaborada con componentes seleccionados
+                    para una experiencia equilibrada.
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <div class="icon">🚀</div>
+
+                <h3>Mayor Productividad</h3>
+
+                <p>
+                    Ideal para jornadas de estudio,
+                    trabajo o entrenamiento.
+                </p>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="ingredientes" class="ingredients">
+
+        <div class="section-title">
+
+            <span>FÓRMULA</span>
+
+            <h2>
+                Lo mejor de la naturaleza
+                para impulsar tu día
+            </h2>
+
+        </div>
+
+        <div class="ingredients-grid">
+
+            <div class="ingredient">
+                <h3>🍊 Vitaminas</h3>
+                <p>
+                    Apoyo nutricional para tus actividades.
+                </p>
+            </div>
+
+            <div class="ingredient">
+                <h3>🌱 Extractos Naturales</h3>
+                <p>
+                    Inspirados en ingredientes reconocidos por su energía.
+                </p>
+            </div>
+
+            <div class="ingredient">
+                <h3>💧 Hidratación</h3>
+                <p>
+                    Sensación refrescante para cualquier momento.
+                </p>
+            </div>
+
+            <div class="ingredient">
+                <h3>⚡ Energía</h3>
+                <p>
+                    Diseñada para acompañar tu ritmo diario.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section id="productos" class="products">
+
+        <div class="section-title">
+
+            <span>PRODUCTOS</span>
+
+            <h2>
+                Elige tu nivel de energía
+            </h2>
+
+        </div>
+
+        <div class="products-grid">
+
+            <div class="product-card">
+
+                <img src="img/energo.png" alt="Energo Original">
+
+                <h3>Energo Original</h3>
+
+                <span class="price">
+                    $35 MXN
+                </span>
+
+                <p>
+                    Perfecta para tu día a día.
+                </p>
+
+                <a href="#" class="buy-btn">
+                    Agregar al carrito
+                </a>
+
+            </div>
+
+            <div class="product-card featured">
+
+                <div class="popular">
+                    MÁS VENDIDO
+                </div>
+
+                <img src="img/energo.png" alt="Pack 6">
+
+                <h3>Pack x6</h3>
+
+                <span class="price">
+                    $180 MXN
+                </span>
+
+                <p>
+                    Energía para toda la semana.
+                </p>
+
+                <a href="#" class="buy-btn">
+                    Agregar al carrito
+                </a>
+
+            </div>
+
+            <div class="product-card">
+
+                <img src="img/energo.png" alt="Pack 12">
+
+                <h3>Pack x12</h3>
+
+                <span class="price">
+                    $340 MXN
+                </span>
+
+                <p>
+                    La mejor opción para ahorrar.
+                </p>
+
+                <a href="#" class="buy-btn">
+                    Agregar al carrito
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="quote">
+
+        <h2>
+            "La energía no se espera.
+            Se construye."
+        </h2>
 
         <p>
-            Mantente activo, enfocado y con energía gracias a la combinación
-            perfecta de ingredientes naturales.
+            ENERGO
         </p>
 
-        <div class="hero-buttons">
-            <a href="#productos" class="btn">Comprar Ahora</a>
-            <a href="#beneficios" class="btn-secondary">Descubrir Más</a>
+    </section>
+
+    <section id="testimonios" class="testimonials">
+
+        <div class="section-title">
+
+            <span>TESTIMONIOS</span>
+
+            <h2>
+                Lo que dicen nuestros consumidores
+            </h2>
+
         </div>
 
-    </div>
+        <div class="testimonial-grid">
 
-    <div class="hero-image">
-        <img src="img/energo.png" alt="Energo">
-    </div>
+            <div class="testimonial">
 
-</section>
+                <p>
+                    "Excelente sabor y energía constante."
+                </p>
 
-<section id="beneficios" class="beneficios">
+                <h4>★★★★★</h4>
 
-    <h2>¿Por qué elegir Energo?</h2>
+            </div>
 
-    <div class="cards">
+            <div class="testimonial">
 
-        <div class="card">
-            <h3>⚡ Energía</h3>
-            <p>Aumenta tu rendimiento físico y mental.</p>
+                <p>
+                    "La utilizo antes de entrenar y me encanta."
+                </p>
+
+                <h4>★★★★★</h4>
+
+            </div>
+
+            <div class="testimonial">
+
+                <p>
+                    "Perfecta para jornadas largas de estudio."
+                </p>
+
+                <h4>★★★★★</h4>
+
+            </div>
+
         </div>
 
-        <div class="card">
-            <h3>🌿 Natural</h3>
-            <p>Ingredientes cuidadosamente seleccionados.</p>
-        </div>
+    </section>
 
-        <div class="card">
-            <h3>🚀 Productividad</h3>
-            <p>Ideal para estudio, trabajo y entrenamiento.</p>
-        </div>
+    <section class="cta">
 
-    </div>
+        <h2>
+            Tu próxima dosis de energía te está esperando
+        </h2>
 
-</section>
+        <p>
+            Descubre por qué Energo está cambiando la forma de mantenerse activo.
+        </p>
 
-<section id="productos" class="productos">
+        <a href="https://wa.me/5210000000000" class="cta-btn">
+            Contactar por WhatsApp
+        </a>
 
-    <h2>Nuestros Productos</h2>
+    </section>
 
-    <div class="product-grid">
+    <footer>
 
-        <div class="product-card">
-            <img src="energo.png" alt="">
-            <h3>Energo Original</h3>
-            <p>$35 MXN</p>
-            <button>Agregar al carrito</button>
-        </div>
+        <h2>ENERGO</h2>
 
-        <div class="product-card">
-            <img src="energo.png" alt="">
-            <h3>Energo Pack x6</h3>
-            <p>$180 MXN</p>
-            <button>Agregar al carrito</button>
-        </div>
+        <p>
+            Energía natural para tu ritmo diario.
+        </p>
 
-        <div class="product-card">
-            <img src="energo.png" alt="">
-            <h3>Energo Pack x12</h3>
-            <p>$340 MXN</p>
-            <button>Agregar al carrito</button>
-        </div>
+        <small>
+            © 2026 Energo. Todos los derechos reservados.
+        </small>
 
-    </div>
+    </footer>
 
-</section>
-
-<section class="testimonios">
-
-    <h2>Lo que dicen nuestros clientes</h2>
-
-    <div class="cards">
-
-        <div class="card">
-            ⭐⭐⭐⭐⭐
-            <p>"Me ayuda a mantenerme activo todo el día."</p>
-        </div>
-
-        <div class="card">
-            ⭐⭐⭐⭐⭐
-            <p>"Excelente sabor y energía duradera."</p>
-        </div>
-
-        <div class="card">
-            ⭐⭐⭐⭐⭐
-            <p>"La mejor alternativa a otras bebidas energéticas."</p>
-        </div>
-
-    </div>
-
-</section>
-
-<section id="contacto" class="cta">
-
-    <h2>¿Listo para probar Energo?</h2>
-
-    <p>Haz tu pedido ahora mismo.</p>
-
-    <a href="https://wa.me/5215512345678" class="btn">
-        Contactar por WhatsApp
+    <a href="https://wa.me/5210000000000" class="whatsapp">
+        💬
     </a>
 
-</section>
-
-<a href="https://wa.me/5215512345678" class="whatsapp">
-    💬
-</a>
-
-<footer>
-    <p>© 2026 Energo. Todos los derechos reservados.</p>
-</footer>
-
 </body>
+
 </html>
+```
